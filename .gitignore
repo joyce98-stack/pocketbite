@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build outputs
+dist/
+frontend/dist/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+frontend/.env.production
+backend/.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Database
+*.mongodb
+
+# Temporary
+tmp/
+temp/
+
+# Vercel
+.vercel/
+
+# Render
+.render/
